@@ -1,0 +1,101 @@
+C:\Users\jason\Desktop\ERAAVS>eraavs_env\Scripts\activate
+
+(eraavs_env) C:\Users\jason\Desktop\ERAAVS>pip install streamlit pandas matplotlib nltk numpy spacy scikit-learn pdfplumber PyPDF2 reportlab
+Collecting streamlit
+  Using cached streamlit-1.45.0-py3-none-any.whl.metadata (8.9 kB)
+Collecting pandas
+  Using cached pandas-2.2.3-cp313-cp313-win_amd64.whl.metadata (19 kB)
+Collecting matplotlib
+  Using cached matplotlib-3.10.1-cp313-cp313-win_amd64.whl.metadata (11 kB)
+Collecting nltk
+  Using cached nltk-3.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting numpy
+  Using cached numpy-2.2.5-cp313-cp313-win_amd64.whl.metadata (60 kB)
+Collecting spacy
+  Using cached spacy-3.8.2.tar.gz (1.3 MB)
+  Installing build dependencies ... error
+  error: subprocess-exited-with-error
+
+  × pip subprocess to install build dependencies did not run successfully.
+  │ exit code: 1
+  ╰─> [67 lines of output]
+      Ignoring numpy: markers 'python_version < "3.9"' don't match your environment
+      Collecting setuptools
+        Using cached setuptools-80.3.1-py3-none-any.whl.metadata (6.5 kB)
+      Collecting cython<3.0,>=0.25
+        Using cached Cython-0.29.37-py2.py3-none-any.whl.metadata (3.1 kB)
+      Collecting cymem<2.1.0,>=2.0.2
+        Using cached cymem-2.0.11-cp313-cp313-win_amd64.whl.metadata (8.8 kB)
+      Collecting preshed<3.1.0,>=3.0.2
+        Using cached preshed-3.0.9.tar.gz (14 kB)
+        Installing build dependencies: started
+        Installing build dependencies: finished with status 'done'
+        Getting requirements to build wheel: started
+        Getting requirements to build wheel: finished with status 'done'
+        Preparing metadata (pyproject.toml): started
+        Preparing metadata (pyproject.toml): finished with status 'done'
+      Collecting murmurhash<1.1.0,>=0.28.0
+        Using cached murmurhash-1.0.12-cp313-cp313-win_amd64.whl.metadata (2.2 kB)
+      Collecting thinc<8.4.0,>=8.3.0
+        Using cached thinc-8.3.6-cp313-cp313-win_amd64.whl.metadata (15 kB)
+      Collecting numpy<2.1.0,>=2.0.0
+        Using cached numpy-2.0.2.tar.gz (18.9 MB)
+        Installing build dependencies: started
+        Installing build dependencies: finished with status 'done'
+        Getting requirements to build wheel: started
+        Getting requirements to build wheel: finished with status 'done'
+        Installing backend dependencies: started
+        Installing backend dependencies: finished with status 'done'
+        Preparing metadata (pyproject.toml): started
+        Preparing metadata (pyproject.toml): finished with status 'error'
+        error: subprocess-exited-with-error
+
+        Preparing metadata (pyproject.toml) did not run successfully.
+        exit code: 1
+
+        [21 lines of output]
+        + C:\Users\jason\Desktop\ERAAVS\eraavs_env\Scripts\python.exe C:\Users\jason\AppData\Local\Temp\pip-install-xfiknucv\numpy_97433b40e96844689af0879a9456178f\vendored-meson\meson\meson.py setup C:\Users\jason\AppData\Local\Temp\pip-install-xfiknucv\numpy_97433b40e96844689af0879a9456178f C:\Users\jason\AppData\Local\Temp\pip-install-xfiknucv\numpy_97433b40e96844689af0879a9456178f\.mesonpy-xtmw57c1 -Dbuildtype=release -Db_ndebug=if-release -Db_vscrt=md --native-file=C:\Users\jason\AppData\Local\Temp\pip-install-xfiknucv\numpy_97433b40e96844689af0879a9456178f\.mesonpy-xtmw57c1\meson-python-native-file.ini
+        The Meson build system
+        Version: 1.4.99
+        Source dir: C:\Users\jason\AppData\Local\Temp\pip-install-xfiknucv\numpy_97433b40e96844689af0879a9456178f
+        Build dir: C:\Users\jason\AppData\Local\Temp\pip-install-xfiknucv\numpy_97433b40e96844689af0879a9456178f\.mesonpy-xtmw57c1
+        Build type: native build
+        Project name: NumPy
+        Project version: 2.0.2
+        WARNING: Failed to activate VS environment: Could not find C:\Program Files (x86)\Microsoft Visual Studio\Installer\vswhere.exe
+
+        ..\meson.build:1:0: ERROR: Unknown compiler(s): [['icl'], ['cl'], ['cc'], ['gcc'], ['clang'], ['clang-cl'], ['pgcc']]
+        The following exception(s) were encountered:
+        Running `icl ""` gave "[WinError 2] The system cannot find the file specified"
+        Running `cl /?` gave "[WinError 2] The system cannot find the file specified"
+        Running `cc --version` gave "[WinError 2] The system cannot find the file specified"
+        Running `gcc --version` gave "[WinError 2] The system cannot find the file specified"
+        Running `clang --version` gave "[WinError 2] The system cannot find the file specified"
+        Running `clang-cl /?` gave "[WinError 2] The system cannot find the file specified"
+        Running `pgcc --version` gave "[WinError 2] The system cannot find the file specified"
+
+        A full log can be found at C:\Users\jason\AppData\Local\Temp\pip-install-xfiknucv\numpy_97433b40e96844689af0879a9456178f\.mesonpy-xtmw57c1\meson-logs\meson-log.txt
+        [end of output]
+
+        note: This error originates from a subprocess, and is likely not a problem with pip.
+      error: metadata-generation-failed
+
+      Encountered error while generating package metadata.
+
+      See above for output.
+
+      note: This is an issue with the package mentioned above, not pip.
+      hint: See above for details.
+      [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 25.0.1 -> 25.1.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+error: subprocess-exited-with-error
+
+× pip subprocess to install build dependencies did not run successfully.
+│ exit code: 1
+╰─> See above for output.
+
+note: This error originates from a subprocess, and is likely not a problem with pip.

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 150">
+  <style>
+    .logo-text {
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      fill: #152e9e;
+    }
+    .logo-script {
+      font-family: 'Brush Script MT', cursive;
+      fill: #152e9e;
+      font-size: 65px;
+    }
+  </style>
+  <text x="60" y="80" class="logo-script">E</text>
+  <text x="115" y="80" class="logo-text" font-size="40">RAAVS</text>
+</svg>
